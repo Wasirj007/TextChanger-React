@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%20Ullah.github.io/TextChanger-React/precache-manifest.8b36c797e1bd38cd3e38c55304f7a7c4.js"
+  "/TextChanger-React/precache-manifest.131e411356c0d87d854f4a95252581c2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%20Ullah.github.io/TextChanger-React/index.html", {
+workbox.routing.registerNavigationRoute("/TextChanger-React/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
