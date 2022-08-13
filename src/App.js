@@ -1,16 +1,16 @@
 import React,{useState}  from 'react';
 import './App.css';
 import Alert from './components/Alert';
-// import About from './components/About';
+import About from './components/About';
 import Navbar from './components/Navbar'
 import Textform from './components/Textform'
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link,
-//   Routes
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Routes
+} from "react-router-dom";
 
 function App() {
   const [mode, setmode] = useState('light')
@@ -61,20 +61,20 @@ function App() {
 
   return (
     <>
-    {/* <Router> */}
+    <Router>
       <Navbar title="Text Changer" AboutText="About Us" mode={mode} RedMode={RedMode} toggleMode={toggleMode} btntext={btntext} buttontext={buttontext}/>
       <Alert alert={alert} />
       <div className="container my-3">
-      {/* <Switch> */}
-        {/* <Route path='/home'> */}
+      <Switch>
+        <Route path='/home'>
       <Textform showAlert={showAlert} heading="Enter your text to analyze below" mode={mode}/>
-      {/* </Route>
-      <Route path='/about'> */}
-      {/* <About/> */}
-      {/* </Route>
-      </Switch> */}
+      </Route>
+      <Route path='/about'>
+      <About mode={mode}/>
+      </Route>
+      </Switch> 
       </div>
-      {/* </Router> */}
+      </Router>
     </>
   );
 }
