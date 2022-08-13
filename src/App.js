@@ -66,11 +66,11 @@ function App() {
       <Alert alert={alert} />
       <div className="container my-3">
       <Switch>
-        <Route path='/home'>
-      <Textform showAlert={showAlert} heading="Enter your text to analyze below" mode={mode}/>
+        <Route path='/home' element={<Textform showAlert={showAlert} heading="Enter your text to analyze below" mode={mode} />}>
+      {/* </> */}
       </Route>
-      <Route path='/about'>
-      <About mode={mode}/>
+      <Route path='/about' element={<About mode={mode} />}>
+      
       </Route>
       </Switch> 
       </div>
