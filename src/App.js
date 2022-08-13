@@ -5,11 +5,11 @@ import About from './components/About';
 import Navbar from './components/Navbar'
 import Textform from './components/Textform'
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Switch,
   Route,
   Link,
-  Routes
+  HashRouter
 } from "react-router-dom";
 
 function App() {
@@ -61,20 +61,20 @@ function App() {
 
   return (
     <>
-    <Router>
+    <BrowserRouter>
       <Navbar title="Text Changer" AboutText="About Us" mode={mode} RedMode={RedMode} toggleMode={toggleMode} btntext={btntext} buttontext={buttontext}/>
       <Alert alert={alert} />
       <div className="container my-3">
       <Switch>
-        <Route path='/home' element={<Textform showAlert={showAlert} heading="Enter your text to analyze below" mode={mode} />}>
-      {/* </> */}
+        <Route path={process.env.PUBLIC_URL + '/home'}>
+        <Textform showAlert={showAlert} heading="Enter your text to analyze below" mode={mode} />
       </Route>
-      <Route path='/about' element={<About mode={mode} />}>
-      
+      <Route path={process.env.PUBLIC_URL + '/about'}>
+      <About mode={mode} />
       </Route>
       </Switch> 
       </div>
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
