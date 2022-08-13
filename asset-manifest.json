@@ -1,7 +1,7 @@
 {
   "main.css": "/TextChanger-React/static/css/main.b70d7ea6.chunk.css",
-  "main.js": "/TextChanger-React/static/js/main.337c2b24.chunk.js",
-  "main.js.map": "/TextChanger-React/static/js/main.337c2b24.chunk.js.map",
+  "main.js": "/TextChanger-React/static/js/main.41a8e263.chunk.js",
+  "main.js.map": "/TextChanger-React/static/js/main.41a8e263.chunk.js.map",
   "static/js/1.8f2f4211.chunk.js": "/TextChanger-React/static/js/1.8f2f4211.chunk.js",
   "static/js/1.8f2f4211.chunk.js.map": "/TextChanger-React/static/js/1.8f2f4211.chunk.js.map",
   "static/js/2.32b23474.chunk.js": "/TextChanger-React/static/js/2.32b23474.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/TextChanger-React/static/js/runtime~main.6b9c5781.js.map",
   "static/css/main.b70d7ea6.chunk.css.map": "/TextChanger-React/static/css/main.b70d7ea6.chunk.css.map",
   "index.html": "/TextChanger-React/index.html",
-  "precache-manifest.c54caf71cd160730cc43875451e71c2e.js": "/TextChanger-React/precache-manifest.c54caf71cd160730cc43875451e71c2e.js",
+  "precache-manifest.b909056bee8b0aafab5bca293b6e5a1d.js": "/TextChanger-React/precache-manifest.b909056bee8b0aafab5bca293b6e5a1d.js",
   "service-worker.js": "/TextChanger-React/service-worker.js"
 }

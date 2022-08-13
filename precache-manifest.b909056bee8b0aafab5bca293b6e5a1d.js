@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "337c2b2465562dab7abf",
+    "revision": "41a8e26346951dfdc4a0",
     "url": "/TextChanger-React/static/css/main.b70d7ea6.chunk.css"
   },
   {
-    "revision": "337c2b2465562dab7abf",
-    "url": "/TextChanger-React/static/js/main.337c2b24.chunk.js"
+    "revision": "41a8e26346951dfdc4a0",
+    "url": "/TextChanger-React/static/js/main.41a8e263.chunk.js"
   },
   {
     "revision": "8f2f4211b0891106f089",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/TextChanger-React/static/js/runtime~main.6b9c5781.js"
   },
   {
-    "revision": "a29b305b51c4288a5991a0ac2451c181",
+    "revision": "2521364a3a8d18575b0176c5c8d5fcf2",
     "url": "/TextChanger-React/index.html"
   }
 ];

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TextChanger-React/precache-manifest.c54caf71cd160730cc43875451e71c2e.js"
+  "/TextChanger-React/precache-manifest.b909056bee8b0aafab5bca293b6e5a1d.js"
 );
 
 workbox.clientsClaim();
